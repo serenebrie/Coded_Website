@@ -1,3 +1,136 @@
+@font-face {
+    font-family: 'beth_ellenregular';
+    src: url('bethellen-webfont.woff2') format('woff2'),
+         url('bethellen-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 body {
-    background-color:hsl(39, 65%, 89%);
+    background-color:#e6e5e0;
+
+}
+#infobox {
+
+    width: 400px;
+    height: 740px;
+    float: left;
+    position: fixed;
+    left: 200px;
+    top: 100px;
+
+}
+.title {
+    display: inline-block;
+    width: 400px;
+    height: 50px;
+    border-bottom: 2px solid #000;
+    font-size: 44px;
+    text-align:center;
+    font-family: 'beth_ellenregular';
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.image {
+    width: 190px;
+    height: 190px;
+    border-radius: 100%;
+    border: 10px solid rgba(198, 141, 191, 0.81);
+    align-content: center;
+
+}
+.links {
+    width: 180px;
+    height: 50px;
+    background: #AA95AD;
+    float:left;
+    margin-top: 10px;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    text-transform: uppercase;
+    outline: 1px solid #726374;
+    letter-spacing: 4px;
+}
+.links:nth-child(even) { float: right;}
+.links:hover {
+        background: rgba(188, 173, 108, 0.74);
+}
+
+.aboutme {
+    width: 359px;
+    height: 290px;
+    background: #AA95AD;
+    float: left;
+    margin-top: 10px;
+    padding: 0px 5px;
+    border: 15px solid rgba(170, 149, 173, 0.5);
+    font-family: sans-serif;
+    color: #434343;
+    text-align: center;
+    overflow: auto;
+}
+
+.aboutme::-webkit-scrollbar {
+    width: 4px;
+}
+.aboutme::-webkit-scrollbar-track {
+    background: #AA95AD;
+}
+.aboutme::-webkit-scrollbar-thumb {
+    background: rgba(229, 211, 131, 0.67);
+}
+
+#header {
+    float: right;
+    width: 400px;
+    position: fixed;
+    height: 80px;
+    font-size: 30px;
+    font-family: 'beth_ellenregular';
+    background: #D6D3C9;
+    left: 140px;
+    top: 500px;
+    color: #69665e;
+    line-height: 90px;
+    text-align: center;
+    outline: 1px solid #69665e;
+}
+
+.firstpoem {
+    width: 303px;
+    height: 346px;
+    background: #D6D3C9;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #69665e;
+    position: absolute;
+    right: 400px;
+    float: right;
+    top: 200px;
+    outline: 1px solid #69665e;
+    text-align: center;
+    line-height: 24px;
+}
+
+.dospoem {
+    width: 600px;
+    height: 470px;
+    background: #D6D3C9;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #69665e;
+    position: absolute;
+    right:400px;
+    float:right;
+    top: 500px;
+    outline: 1px solid #69665e;
+    text-align: center;
+    line-height: 24px;
+
 }

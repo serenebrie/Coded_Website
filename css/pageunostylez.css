@@ -1,0 +1,264 @@
+@font-face {
+    font-family: 'beth_ellenregular';
+    src: url('bethellen-webfont.woff2') format('woff2'),
+         url('bethellen-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nimbus_monoregular';
+    src: url('nimbusmono-regular-webfont.woff2') format('woff2'),
+         url('nimbusmono-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'digory_doodlesregular';
+    src: url('digory_doodles_ps-webfont.woff2') format('woff2'),
+         url('digory_doodles_ps-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: '1942_report1942_report';
+    src: url('1942-webfont.woff2') format('woff2'),
+         url('1942-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color:#e6e5e0;
+
+
+}
+#infobox {
+
+    width: 400px;
+    height: 740px;
+    float: left;
+    position: fixed;
+    left: 200px;
+    top: 100px;
+
+}
+#title {
+    display: inline-block;
+    width: 400px;
+    height: 50px;
+    border-bottom: 2px solid #000;
+    font-size: 44px;
+    text-align:center;
+    font-family: 'beth_ellenregular';
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.image {
+    width: 190px;
+    height: 190px;
+    background: #000;
+    border-radius: 100%;
+    border: 10px solid rgba(198, 141, 191, 0.81);
+    align-content: center;
+
+}
+.links {
+    width: 180px;
+    height: 50px;
+    background: #AA95AD;
+    float:left;
+    margin-top: 10px;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    text-transform: uppercase;
+    outline: 1px solid #726374;
+    letter-spacing: 4px;
+}
+.links:nth-child(even) { float: right;}
+.links:hover {
+        background: rgba(188, 173, 108, 0.74);
+}
+#aboutmeback {
+    width: 359px;
+    height: 290px;
+    background: #806e83;
+    float: left;
+    position: fixed;
+    top: 493px;
+    left: 211px;
+    margin-top: 10px;
+    padding: 0px 5px;
+    border: 15px solid #806e83;
+    z-index: -1;
+}
+
+.aboutme {
+    width: 359px;
+    height: 290px;
+    background: #AA95AD;
+    float: left;
+    margin-top: 10px;
+    padding: 0px 5px;
+    border: 15px solid rgba(170, 149, 173, 0.5);
+    font-family: sans-serif;
+    color: #434343;
+    text-align: left;
+    overflow: auto;
+    z-index: 4;
+    outline: #806e83;
+}
+
+.aboutme::-webkit-scrollbar {
+    width: 4px;
+}
+.aboutme::-webkit-scrollbar-track {
+    background: #AA95AD;
+}
+.aboutme::-webkit-scrollbar-thumb {
+    background: rgba(229, 211, 131, 0.67);
+}
+
+#header {
+    float: right;
+    width: 600px;
+    position: absolute;
+    height: 80px;
+    background: #D6D3C9;
+    left: 900px;
+    top: 100px;
+    line-height: 13px;
+    text-align: center;
+
+}
+.florablanca {
+    font-size: 40px;
+    font-family: 'beth_ellenregular';
+    color: #69665e;
+
+}
+
+.firstpoem {
+    width: 700px;
+    height: 700px;
+    background: #D6D3C9;
+    font-family: 'nimbus_monoregular';
+    font-size: 16px;
+    color: #69665e;
+    position: absolute;
+    right: 400px;
+    float: right;
+    top: 200px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 0px 5px;
+    overflow: auto;
+    box-shadow: 5px 10px 18px #888888;
+
+}
+
+.firstpoem::-webkit-scrollbar {
+    width: 4px;
+}
+.firstpoem::-webkit-scrollbar-track {
+    background: #D6D3C9;
+}
+.firstpoem::-webkit-scrollbar-thumb {
+    background: #D6D3C9;
+}
+
+.dospoem {
+    width: 600px;
+    height: 400px;
+    background: #D6D3C9;
+    position: absolute;
+    float: right;
+    right: 200px;
+    top: 940px;
+    font-family: 'nimbus_monoregular';
+    font-size: 16px;
+    color: #69665e;
+    text-align: center;
+    box-shadow: 5px 10px 18px #888888;
+
+}
+
+.mytunez {
+    width: 300px;
+    height: auto;
+    padding: 8px;
+    background-color: #000000;
+    margin: 20px auto;
+    overflow: hidden;
+    position: fixed;
+
+
+}
+
+
+.trespoem {
+    width: 600px;
+    height: 400px;
+    background: #D6D3C9;
+    position: absolute;
+    float: right;
+    right: 500px;
+    top: 1400px;
+    font-family: 'nimbus_monoregular';
+    font-size: 16px;
+    color: #69665e;
+    text-align: center;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.quatropoem {
+    width: 800px;
+    height: 400px;
+    background: #D6D3C9;
+    position: absolute;
+    float: right;
+    right: 400px;
+    top: 1850px;
+    font-family: 'nimbus_monoregular';
+    font-size: 16px;
+    color: #69665e;
+    text-align: center;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+iframe {
+    position: fixed;
+
+}
+
+.ropoem {
+    width: 340px;
+    height: 440px;
+    background: #D6D3C9;
+    position: absolute;
+    float: right;
+    right: 140px;
+    top: 1390px;
+    font-family: 'nimbus_monoregular';
+    font-size: 14px;
+    color: #69665e;
+    text-align: center;
+    box-shadow: 5px 10px 18px #888888;
+    line-height: 23px;
+}
+
